@@ -91,7 +91,7 @@
 <meta property="og:site_name" content="云梦斋">
 <meta property="og:description" content="网购的树莓派今天到了，十分开心，拆开包裹马上就开始鼓捣起来。贴上散热片，装上风扇，再套上外壳，才发现我第一次对硬件这么痴迷。  树莓派是一款基于ARM的微型电脑主板，以SD/MicroSD卡为内存硬盘，卡片主板周围有1/2/4个USB接口和一个10/100 以太网接口（A型没有网口），可连接键盘、鼠标和网线，同时拥有视频模拟信号的电视输出接口和HDMI高清视频输出接口，以上部件全部整合在一张仅比信">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-12-16T16:56:18.584Z">
+<meta property="og:updated_time" content="2017-12-16T16:58:38.200Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="树莓派笔记（1）">
 <meta name="twitter:description" content="网购的树莓派今天到了，十分开心，拆开包裹马上就开始鼓捣起来。贴上散热片，装上风扇，再套上外壳，才发现我第一次对硬件这么痴迷。  树莓派是一款基于ARM的微型电脑主板，以SD/MicroSD卡为内存硬盘，卡片主板周围有1/2/4个USB接口和一个10/100 以太网接口（A型没有网口），可连接键盘、鼠标和网线，同时拥有视频模拟信号的电视输出接口和HDMI高清视频输出接口，以上部件全部整合在一张仅比信">
@@ -334,7 +334,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2017-12-17T00:56:18+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2017-12-17T00:58:38+08:00">
                 2017-12-17
               </time>
             
@@ -396,7 +396,7 @@
 </blockquote>
 <p>树莓派虽小，可是“麻雀虽小，五脏俱全”。我将在没有显示屏和路由器的境况下，用网线来进行树莓派和笔记本之间的通信。</p>
 <h2 id="1，安装树莓派操作系统-Raspbian"><a href="#1，安装树莓派操作系统-Raspbian" class="headerlink" title="1，安装树莓派操作系统(Raspbian)"></a>1，安装树莓派操作系统(Raspbian)</h2><h3 id="1-1-下载系统镜像"><a href="#1-1-下载系统镜像" class="headerlink" title="1.1 下载系统镜像"></a>1.1 下载系统镜像</h3><p>进入官网( <a href="https://www.raspberrypi.org/downloads/raspbian/" target="_blank" rel="noopener">https://www.raspberrypi.org/downloads/raspbian/</a> )下载最新的Raspbian系统压缩包( <a href="https://downloads.raspberrypi.org/raspbian_latest" target="_blank" rel="noopener">https://downloads.raspberrypi.org/raspbian_latest</a> ),下载完成后，解压Raspbian系统img镜像。</p>
-<h3 id="1-2-格式化SD-MicroSD卡"><a href="#1-2-格式化SD-MicroSD卡" class="headerlink" title="1.2 格式化SD/MicroSD卡"></a>1.2 格式化SD/MicroSD卡</h3><p>下载SD Memory Card Formatter软件( <a href="https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html" target="_blank" rel="noopener">https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html</a> )，对SD卡进行格式化，最好选择Overwrite format选项。Windows自带的格式化工具并不是很好。</p>
+<h3 id="1-2-格式化SD-MicroSD卡"><a href="#1-2-格式化SD-MicroSD卡" class="headerlink" title="1.2 格式化SD/MicroSD卡"></a>1.2 格式化SD/MicroSD卡</h3><p>进入( <a href="https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html" target="_blank" rel="noopener">https://www.sdcard.org/downloads/formatter_4/eula_windows/index.html</a> )下载SD Memory Card Formatter软件，对SD卡进行格式化，最好选择Overwrite format选项。Windows自带的格式化工具并不是很好。</p>
 <h3 id="1-3-将系统烧写进SD卡"><a href="#1-3-将系统烧写进SD卡" class="headerlink" title="1.3 将系统烧写进SD卡"></a>1.3 将系统烧写进SD卡</h3><p>下载Win32DiskImager软件( <a href="https://sourceforge.net/projects/win32diskimager/" target="_blank" rel="noopener">https://sourceforge.net/projects/win32diskimager/</a> )。打开软件，选取之前下载的Raspbian系统img镜像，然后点击write按钮即可。</p>
 <h3 id="1-4-添加ssh空文件夹"><a href="#1-4-添加ssh空文件夹" class="headerlink" title="1.4 添加ssh空文件夹"></a>1.4 添加ssh空文件夹</h3><p>烧写系统完成后，不要急着拔卡，记得在添加ssh空文件夹，这样可以使树莓派能够ssh远程登录访问。</p>
 <p>上述步骤完成后，将SD卡插入树莓派底部的卡槽，打开开关即可。</p>
